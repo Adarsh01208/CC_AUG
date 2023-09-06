@@ -1,0 +1,26 @@
+body{
+    /* font-family: 'Ubuntu', sans-serif !important; */
+    font-family:  'inter' , sans-serif !important;
+    /* color: var(--primary-text-color); */
+}
+.top-banner{   
+    background-color:black;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    /* text-align: center; */
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.top-banner .container{
+    margin-block: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 15px;
+    line-height: 1.70;
+    color: inherit;
+    font-weight: 400
+} 

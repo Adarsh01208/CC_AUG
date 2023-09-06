@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Made By Adrsh Singh -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="images/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pet Adoption</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4f38b8c761.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <div class="navigation shadow-lg">
+        <div class="navigation__row">
+            <a href="#header" class="navigation__logo-link"><img src="images/logo.svg" alt="logo"
+                    class="navigation__logo"></a>
+            <a href="#" class="btn btn--donate">Donate</a>
+            <div class="navigation__icon">
+                <div class="navigation__burger"></div>
+            </div>
+        </div>
+        <nav class="navigation__nav">
+            <div class="navigation__topper"><a href="#" class="btn-back hidden">&larr;<span class="back">Back</span></a>
+            </div>
+            <ul class="navigation__menu navigation__menu--main">
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="adopt">Adopt<span class="navigation__arr">&rarr;</span>
+                    </li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="clinic">Clinic<span class="navigation__arr">&rarr;</span>
+                    </li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="foster">Foster<span class="navigation__arr">&rarr;</span>
+                    </li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="training">Training<span class="navigation__arr">&rarr;</span>
+                    </li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="about">About Us<span class="navigation__arr">&rarr;</span>
+                    </li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="involved">Get Involved<span
+                            class="navigation__arr">&rarr;</span>
+                    </li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="donate">Donate<span class="navigation__arr">&rarr;</span>
+                    </li>
+                </a>
+            </ul>
+            <ul class="navigation__menu navigation__menu--submenu navigation__adopt ">
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="adopt">Adoptable Animals</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="clinic">About Adoption</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="rescue">Transport Program</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="training">Shelter FAQs</li>
+                </a>
+            </ul>
+            <ul class="navigation__menu navigation__menu--submenu navigation__clinic ">
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="adopt">Clinic Services</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="clinic">Appointments</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="rescue">Online Pharmacy</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="training">Spay/Neuter FAQs</li>
+                </a>
+            </ul>
+            <ul class="navigation__menu navigation__menu--submenu navigation__foster">
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="adopt">Fostering Requirements</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="clinic">Dog Foster Application</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="rescue">Cat Foster Application</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="training">Fostering FAQs</li>
+                </a>
+            </ul>
+            <ul class="navigation__menu navigation__menu--submenu navigation__training">
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="adopt">Dog Training Classes</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="clinic">Training Resources</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="training">Training FAQs</li>
+                </a>
+            </ul>
+            <ul class="navigation__menu navigation__menu--submenu navigation__about">
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="adopt">Our Mission</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="clinic">Location &amp; Hours</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="training">Our History</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="training">Awards</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="training">Board of Directors</li>
+                </a>
+            </ul>
+            <ul class="navigation__menu navigation__menu--submenu navigation__involved">
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="adopt">Volunteer</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="clinic">Youth Program</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="training">Community Events</li>
+                </a>
+            </ul>
+            <ul class="navigation__menu navigation__menu--submenu navigation__donate">
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="adopt">Donate Now</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="clinic">Become a Monthly Hero</li>
+                </a>
+                <a href="#" class="navigation__link">
+                    <li class="navigation__item" value="training">More Ways to Give</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <header class="header" id="header">
+        <div class="header__hero-text">
+            <h1 class="heading-primary">Find your new best friend today</h1>
+            <a href="#" class="btn btn--adopt">Adopt now &rarr;</a>
+        </div>
+        <p class="copyright-text">
+            Photo by <a
+                href="https://unsplash.com/es/@silvana_carlos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Silvana
+                Carlos</a> on <a
+                href="https://unsplash.com/photos/TPdR4J19SGQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+    </header>
+    <main>
+        <section id="about" class="py-3">
+            <div class="container py-3">
+                <div class="row justify-content-center py-5">
+                    <div class="image_container col-lg-5">
+                        <figure> <img src="images/Pets.png" class="img-fluid"
+                                alt="a dog and a cat siting next to each other" class="">
+                        </figure>
+                    </div>
+                    <div class="about_text col-lg-5 py-5 ">
+                        <h1 class="py-5">About the shelter<br>&ldquo;Cozy House&rdquo;</h1>
+                        <p class="text-secondary fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+                            maxime voluptates. Animi eaque
+                            cupiditate facilis provident nam necessitatibus, recusandae dignissimos laborum labore. </p>
+                        <p class="text-secondary fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+                            maxime voluptates. Animi eaque
+                            cupiditate facilis provident nam necessitatibus, recusandae dignissimos laborum labore eos
+                            vel.
+                            Animi nihil voluptas perspiciatis doloribus eaque? Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Tenetur, maxime voluptates. Animi eaque. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5" id="pets">
+            <div class="container p-5">
+                <h1>Our freinds who<br>are looking for a house</h1>
+                <div class="slider_wrapper ">
+                    <div class="pets_slider py-5">
+                        <div class="slide p-5 mx-3 shadow-lg" id="Katrine ">
+                            <figure> <img src="images/Katrine.png" width="270" /> </figure>
+                            <p class="fs-2">Katrine</p><a class="text-decoration-none  text-dark fs-4 shadow-sm">Learn more</a>
+                        </div>
+                        <div class="slide p-5 mx-3 shadow-lg" id="Jennifer">
+                            <figure> <img src="images/Jennifer.png" width="270" /> </figure>
+                            <p class="fs-2">Jennifer</p><a class="text-decoration-none  text-dark fs-4 shadow-sm">Learn more</a>
+                        </div>
+                        <div class="slide p-5 mx-3 shadow-lg" id="Woody">
+                            <figure> <img src="images/Woody.png" width="270" /> </figure>
+                            <p class="fs-2" >Woody</p><a class="text-decoration-none  text-dark fs-4 shadow-sm">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="slider_nav"> <a title="See Katrine" alt="a grey female cat standing"
+                            href="#Katrine"></a> <a title="See Jennifer"
+                            alt="a white female puppy with brown ears sitting" href="#Jennifer"></a> <a
+                            title="See Woody" alt="a big brown dog sitting" href="#Woody"></a> </div><a
+                        title="see more pets" class="text-decoration-none text-dark fs-4 shadow-sm" href="">Get to know the rest</a>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <h2 class="heading-secondary margin-top-large">They've been <span class="heading-block">waiting for
+                    you</span></h2>
+            <p class="services__mission-statement">Our mission is to promote, protect and advance the well-being of all
+                animals.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nulla harum quia assumenda
+                veniam, cumque sit eveniet voluptatum ipsum sequi, obcaecati cupiditate quasi. Id velit,
+                magnam iusto illum illo labore.</p>
+            <div class="services__container margin-top-xlarge ">
+                <div class="services__item services__item--cats shadow-lg">
+                    <a href=" #" class="services__link">
+                        <img src="images/dio.JPG" alt="Cat photo" class="services__photo">
+                        <div class="services__overlay"></div>
+                        <h3 class="services__heading">Meet our friendly felines</h3>
+                    </a>
+                </div>
+                <div class="services__item services__item--dogs shadow-lg">
+                    <a href="#" class="services__link">
+                        <img src="images/dog.jpg" alt="Dog photo" class="services__photo">
+                        <div class="services__overlay"></div>
+                        <h3 class="services__heading">Say hello to our cuddly canines</h3>
+                        <p class="copyright-text copyright-text--center">Photo by T.R Photography on Unsplash</p>
+                    </a>
+                </div>
+                <div class="services__item services__item--clinic shadow-lg">
+                    <h3 class="services__heading-text">Clinic Services</h3>
+                    <p class="services__text">Our community clinic provides affordable, professional service for all
+                        animals. From preventative to full-service care, we're commited to ensuring that your pet is
+                        happy and healthy.</p>
+                    <a href="#" class="btn btn--services">Visit our clinic</a>
+                </div>
+
+                <div class="services__square services__square--small shadow-lg">
+                    <h3 class="services__heading-text">In the know</h3>
+                    <p class="services__text">The latest square and updates</p>
+                    <a href="#" class="btn btn--services">Read all news</a>
+                </div>
+                <div class="services__square services__square--photo shadow-lg">
+                    <img src="images/dog_and_cat.jpg" alt="" class="services__photo services__photo--dog">
+                </div>
+                <div class="services__square services__square--large shadow-lg">
+                    <h3 class="services__heading-text">Pet care and training</h3>
+                    <p class="services__text">Our trainers can help you reach your behavoir goals and give you
+                        confidence with your pet. We offer a warm and supportive environment to give you and your
+                        dog the best start possible.</p>
+                    <a href="#" class="btn btn--services">Visit the Training Center</a>
+                </div>
+            </div>
+        </section>
+        <section class="events">
+            <h2 class="heading-secondary heading-secondary--events mb-4">Upcoming Events</h2>
+            <div class="events__carousel-container shadow-lg">
+                <button class="btn btn--prev">&larr;</button>
+                <button class="btn btn--next">&rarr;</button>
+                <div class="events__carousel">
+                    <img src="images/volunteer.jpg" alt="" class="events__image">
+                    <h3 class="events__subheading">Volunteer Orientation</h3>
+                    <p class="events__text">Anytime!<br />100% online</p>
+                    <a href="#" class="btn btn--events">Event Details</a>
+                </div>
+                <div class="events__carousel">
+                    <img src="images/adopt.jpg" alt="" class="events__image">
+                    <h3 class="events__subheading">Adoption Weekend</h3>
+                    <p class="events__text">Nov. 12-13<br />123 Pine Ln.</p>
+                    <a href="#" class="btn btn--events">Event Details</a>
+                </div>
+                <div class="events__carousel">
+                    <img src="images/training.jpg" alt="" class="events__image">
+                    <h3 class="events__subheading">Training 101</h3>
+                    <p class="events__text">Nov. 19<br />456 Arts St.</p>
+                    <a href="#" class="btn btn--events">Event Details</a>
+                </div>
+                <div class="events__subscribe">
+                    <h3 class="events__subheading">Stay informed</h3>
+                    <p class="events__subscribe-text">Subscribe to our newsletter and stay up-to-date on all current
+                        events.
+                    </p>
+                    <a href="#" class="btn btn--events">Subscribe</a>
+                </div>
+            </div>
+        </section>
+        <section class="donate margin-top-large shadow-lg">
+            <h2 class="donate__heading">Donate Now</h2>
+            <a href="#" class="btn btn--donate">donate</a>
+        </section>
+        <section id="donation" class="py-5">
+            <div class="container p-5">
+                <div class="row justify-content-center p-5">
+                    <div class="image_container img-fluid col-lg-5">
+                        <figure> <img src="images/Dog_donate.png " class="img-fluid"
+                                alt="a brown dog lying on the floor"> </figure>
+                    </div>
+                    <div class="donation_text col-lg-5">
+                        <h2>In addition, you<br>can make a donation</h2>
+                        <p>Name of the bank / Type of bank account</p><button class="card_number"><img
+                                src="images/SVG Icon/credit-card (1).svg" alt="credit-card">8380 2880 8028 8791
+                            7435</button>
+                        <h6>Legal information and Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+                            maxime
+                            voluptates. Animi eaque cupiditate facilis provident nam necessitatibus, recusandae
+                            dignissimos
+                            laborum labore eos vel. Animi nihil voluptas perspiciatis doloribus eaque? Lorem ipsum dolor
+                            sit
+                            amet consectetur adipisicing elit. Tenetur, maxime voluptates. Animi eaque. </h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer margin-top-large">
+        <div class="footer__wrapper">
+            <img src="images/logo.svg" alt="" class="footer__logo">
+            <p class="footer__copyright">Copyright &#169; APS 2023</p>
+            <a href="#" class="footer__link">
+                <p class="footer__copyright">| Terms & Conditions |</p>
+            </a>
+        </div>
+        <ul class="footer__links">
+            <a href="#" class="footer__link">
+                <li class="footer__item">Contact</li>
+            </a>
+            <a href="#" class="footer__link">
+                <li class="footer__item">Hours & Location</li>
+            </a>
+            <a href="#" class="footer__link">
+                <li class="footer__item">Careers</li>
+            </a>
+            <a href="#" class="footer__link">
+                <li class="footer__item">Press</li>
+            </a>
+            <a href="#" class="footer__link">
+                <li class="footer__item">Publications</li>
+            </a>
+        </ul>
+        <div class="footer__icons">
+            <a href="#" class="footer__link">
+                <svg class="footer__icon">
+                    <use href="images/sprite.svg#icon-facebook"></use>
+                </svg>
+            </a>
+            <a href="#" class="footer__link">
+                <svg class="footer__icon">
+                    <use href="images/sprite.svg#icon-instagram"></use>
+                </svg>
+            </a>
+            <a href="#" class="footer__link">
+                <svg class="footer__icon">
+                    <use href="images/sprite.svg#icon-twitter"></use>
+                </svg>
+            </a>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
